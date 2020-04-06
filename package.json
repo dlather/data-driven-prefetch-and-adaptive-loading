@@ -1,6 +1,6 @@
 {
   "name": "data-driven-prefetch-and-adaptive-loading",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Package to add Adaptive loading and prefetching resources.",
   "main": "index.js",
   "scripts": {
