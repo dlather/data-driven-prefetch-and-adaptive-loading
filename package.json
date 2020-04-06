@@ -1,0 +1,20 @@
+{
+  "name": "data-driven-prefetch-and-adaptive-loading",
+  "version": "1.0.0",
+  "description": "A Package to add Adaptive loading and prefetching resources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Adaptive",
+    "Loading",
+    "Predictive",
+    "Prefetching"
+  ],
+  "author": "Deepak Lather",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
