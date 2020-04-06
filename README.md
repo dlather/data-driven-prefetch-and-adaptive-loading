@@ -2,13 +2,13 @@
 
 A module to easily integrate prefetching and adaptive loading in web apps.
 
-### Methods
+## Methods
 
-##### useNetworkStatus()
+### useNetworkStatus()
 **Params:**
 *initialConnectionType*: The network connection needed to be assumed if navigator.connection is not supported by browser. Could be any one of '4g','3g','2g' or 'slow-2g'.
 
-##### adaptiveCms()
+### adaptiveCms()
 **Params:**
 *cmsData*: The data from the Content Management System which includes all the asset links in JSON format.
 *imgConfig*: The custom configuration to pass to control compression factor and quality of image for diffrent network connections.(min): Minimum size of image, usefull is compression is too high,(compression ratio,image quality): A compression of 0.5 means reducing image size by 50%.
@@ -24,7 +24,7 @@ Default value:
 *effectiveConnectionType*: Network connection type i.e result of useNetworkStatus()
 *assetRegex*: Regular Expression to find all the assets in the cmsData. It would be used to find all assets and modify them as per network connection type.
 
-##### prefetch()
+### prefetch()
 **Params:**
 *predictionApiParams:* Parameters to be used to the Prediction Api Url.
 *predictionApiUrl:* Prediction Api Url.
@@ -34,7 +34,7 @@ Default value:
 *effectiveConnectionType:* Network Connection Type.
 *imgConfig:* The custom configuration to pass to control compression factor and quality of image for diffrent network connections.
 
-### Installation and usage
+## Installation and usage
 
 The easiest way to use data-driven-prefetch-and-adaptive-loading is to install it from npm.
 ```
